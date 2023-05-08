@@ -1,10 +1,10 @@
----Seeding department table------
-INSERT INTO department(_name)
+--Seeding department table------
+INSERT INTO department(name)
 VALUE ("Legal", "Engineering", "Sales", "Finance");
 
 
----Seeding _role table---
-INSERT INTO _role(title, salary, deparment_id)
+--Seeding role table---
+INSERT INTO role(title, salary, deparment_id)
 VALUE ("Engineering Lead", 300000, 2),
       ("Engineer", 160000, 2),
       ("Legal Team Lead", 310000, 1),
@@ -15,7 +15,7 @@ VALUE ("Engineering Lead", 300000, 2),
       ("Accountant", 120000, 4);
 
 
------Seeding employee table----
+--eeding employee table----
 -- Sales Lead: Marni Lucas
 -- Legal Lead: Josh Marx
 -- Engineer Lead: Lex Mathews
