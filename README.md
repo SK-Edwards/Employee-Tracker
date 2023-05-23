@@ -58,8 +58,4 @@ After installing the required packages,create the database and its corresponding
 
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 9c87d5afe1b958a2de95590398328581429925ad
 
